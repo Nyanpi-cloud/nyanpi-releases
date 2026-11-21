@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nyanpi</title>
+<meta name="description" content="Watch anime and learn Japanese by understanding it. AniList sync, built-in player, kana lessons, chat and clans.">
+<meta property="og:type" content="website"><meta property="og:title" content="にゃんぴ Nyanpi">
+<meta property="og:description" content="Watch anime. Learn Japanese by understanding it. Free for friends, Windows and Linux.">
+<meta property="og:image" content="https://raw.githubusercontent.com/Nyanpi-cloud/nyanpi-releases/main/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#4a1424">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#22090f;--bg2:#2e0d17;--card:#3a1220;--ink:#fbeeee;--mute:#d3a9ae;--acc:#ff6b6b;--acc2:#ffb4a8;--line:#ffffff1f;--disp:'Zen Maru Gothic','Noto Sans JP',sans-serif;--body:'Noto Sans JP',system-ui,sans-serif}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.6;color-scheme:dark}
+body{background:radial-gradient(900px 500px at 80% -10%,#7a1e36 0,transparent 60%),var(--bg)}
+main{max-width:880px;margin:0 auto;padding:40px 20px 64px}
+.hero{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.logo{width:132px;height:132px;filter:drop-shadow(0 18px 24px #0008)}
+h1{font:900 clamp(40px,8vw,68px)/1.05 var(--disp);margin:0}
+h1 small{display:block;font:700 22px var(--disp);color:var(--acc2);margin-top:6px}
+.lead{font-size:19px;max-width:56ch;margin:22px 0 24px;color:#ffe6e2}
+.btn{display:inline-block;background:linear-gradient(135deg,#ff6b6b,#e0334f);color:#fff;font:700 17px var(--disp);padding:14px 26px;border-radius:999px;text-decoration:none;box-shadow:0 10px 26px #e0334f55}
+.btn:hover{filter:brightness(1.08)}.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.sub{color:var(--mute);font-size:14px;margin-top:12px}
+h2{font:900 28px var(--disp);margin:56px 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+article{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+article h3{font:700 18px var(--disp);margin:0 0 6px;color:var(--acc2)}article p{margin:0;color:#f1d9d9;font-size:15px}
+.note{background:var(--bg2);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:12px;padding:16px 20px;margin-top:18px;color:#f1d9d9}
+ol{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+li{display:flex;gap:16px;align-items:flex-start}li>span{flex:none;width:36px;height:36px;border-radius:50%;background:var(--acc);color:#2a0710;font:900 18px/36px var(--disp);text-align:center}
+li p{margin:2px 0 0;color:#f1d9d9}
+.cta{text-align:center;margin-top:56px;padding:34px 20px;background:var(--card);border-radius:22px;border:1px solid var(--line)}
+footer{margin-top:28px;text-align:center;color:var(--mute);font-size:13px}
+</style></head><body><main>
+<section class="hero"><svg class="logo" viewBox="0 0 512 512" role="img" aria-label="Nyanpi app icon"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a1220"/><stop offset="1" stop-color="#8a1230"/></linearGradient></defs><rect width="512" height="512" rx="110" fill="url(#g)"/><path d="M150 50L190 120Q256 105 322 120L362 50Q380 40 392 70L396 200Q420 215 420 250L420 340Q420 400 360 400L152 400Q92 400 92 340L92 250Q92 215 116 200L120 70Q132 40 150 50Z" fill="#ffe6dd"/><path d="M215 175L215 290L320 232Z" fill="#e84a3c" stroke="#e84a3c" stroke-width="20" stroke-linejoin="round"/><rect x="175" y="340" width="160" height="14" rx="7" fill="#d1102f"/><rect x="205" y="364" width="100" height="14" rx="7" fill="#e07a90"/></svg>
+<div><h1>にゃんぴ<small>Nyanpi</small></h1></div></section>
+<p class="lead">Watch anime and learn Japanese by understanding it. Nyanpi brings your AniList, a Japanese-subtitle player, kana and grammar lessons, and a small community together in one desktop app.</p>
+<a class="btn" href="https://github.com/Nyanpi-cloud/nyanpi-releases/releases/latest">Download for Windows or Linux</a>
+<div class="sub">Free, made for friends. Updates itself after install.</div>
+<h2>What it does</h2><div class="grid"><article><h3>Your AniList, alive</h3><p>Profile, stats, levels and a customisable dashboard, synced with your AniList account.</p></article><article><h3>Built-in player</h3><p>Plays your anime folders with Japanese subtitles (Jimaku). Click any word to look it up; one click sends it to Anki.</p></article><article><h3>Learn Japanese by understanding</h3><p>Guided hiragana and katakana in sets of five, grammar for recognition, a kanji browser, a reader and an Anki flow. No speaking or writing required.</p></article><article><h3>Watch next</h3><p>Suggestions based on what you already watch, with your Den of local shows and automatic missing-episode downloads through qBittorrent.</p></article><article><h3>Friends, levels and clans</h3><p>A chat that works like Discord, name colours that unlock as you level, leaderboards, and clans that compete each month.</p></article><article><h3>Yours to arrange</h3><p>Hide the tabs you do not use, pick a level-unlocked colour scheme, or switch to light mode. A tour shows you where everything is.</p></article></div>
+<div class="note"><b>Realistic expectations.</b> Following Japanese without subtitles is a long endurance race, measured in years. Nyanpi is built for the long run: small daily steps, recognising rather than producing, and plenty of anime in between.</div>
+<h2>Getting started</h2><ol><li><span>1</span><div><b>Download</b><p>Open the link above and download <b>Nyanpi-Setup.exe</b>. Windows may say it protected your PC because the app is not code-signed: choose More info, then Run anyway. Linux builds are shared as an AppImage.</p></div></li><li><span>2</span><div><b>Connect AniList</b><p>Open Settings and paste your AniList token, or just look around first. Everything is saved on your own computer.</p></div></li><li><span>3</span><div><b>Take the tour</b><p>The first launch offers a short guided tour. After that the app updates itself.</p></div></li><li><span>4</span><div><b>Join the Social tab</b><p>Optional. Ask me for an invite code to get chat, leaderboards and clans.</p></div></li></ol>
+<div class="cta"><h2 style="margin:0 0 14px">Ready?</h2><a class="btn" href="https://github.com/Nyanpi-cloud/nyanpi-releases/releases/latest">Get Nyanpi</a><div class="sub">github.com/Nyanpi-cloud/nyanpi-releases</div></div>
+<footer>Nyanpi is a fan-made hobby project and is not affiliated with AniList, Jimaku, or any anime studio.</footer>
+</main></body></html>
